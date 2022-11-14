@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+     <link rel="stylesheet" href="style.css" />
+
+     <title>Solfège</title>
+</head>
+<body style="background-color: rgb(247, 247, 247);">
+
+
+     <div class = "titre">
+          <h1>APPRENDRE LES NOTES DE MUSIQUE</h1>
+     
+     </div>
+     
+
+     
+     <div class="image">
+
+          <img src="sol/do4.png" width="305" height="312" id="myPicture" alt="some image">
+
+
+
+     </div>
+<!--
+     <div class="boxName" >
+          <label for="Note" class = "labName">NOTE</label>
+     </div>
+
+-->
+
+     <div class="textBox" >
+          <input type="text" id="Note" name="Note" class="textfield" maxlength="4">
+          <input type="submit" id="entrer" name="Entrer" class="submitext" value="Enter" onclick="maFonction()">
+     </div>
+     
+
+
+
+    
+
+     <div class="Resultat">
+          <div class="res-img" id="resimg"><img src="vide.png" alt=""></div>
+          <div class="res-txt" id="restxt"></div>
+     </div>
+
+     <div class = "chtxt">
+     <input type="submit" id="changer" name="Changer" class="changetext" value="Changer" onclick="maFonction2(); document.getElementById('Note').value = ''">
+     </div>
+
+     <script src="indexfa.js"></script>
+</body>
+</html>
+
+
+<!-- <input type="submit" id="entrer" name="Entrer" onmouseover="maFonction()" onclick="console.log('un évènement click a eu lieu')"> -->

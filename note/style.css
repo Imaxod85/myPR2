@@ -1,0 +1,110 @@
+
+
+body{
+     
+     background-color: darksalmon;
+     font-family: Tahoma;
+}
+
+.titre{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.image{
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
+
+.textBox{
+     
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     justify-content: center;
+     padding: 50px;
+     padding-top: 10px;
+    
+     
+     
+}
+
+.boxName{
+     font-size: 30px;
+     padding-top: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     
+}
+
+.labName{
+     border: 2px solid rgb(193, 108, 108);
+     border-radius: 2px;
+}
+
+
+input[type=submit]{
+
+     border-radius: 5px;
+     border: 0;
+     width: 80px;
+     height:25px;
+     font-family: Tahoma;
+     cursor:pointer;
+     width: 10em;  height: 2em;
+     font-size: larger;
+}
+
+/* input[type=submit]::{
+     background-color: red;
+} */
+
+
+input[type=submit]:hover{
+     color:white;
+     background-color: rgb(229, 163, 163);
+
+}
+
+input[type=text]{
+     background-color: rgba(219, 145, 145, 0.45);
+     text-align: center; 
+     border-radius: 5px;
+     border: 0 ;
+     width: 80px;
+     height:25px;
+     font-family: Tahoma;
+     font-size: x-large ;
+}
+
+.textfield{
+     margin: 10px;
+}
+
+.Resultat{
+     padding-top: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.res-txt{
+     font-size: xx-large;
+     border: 0;
+     border-radius: 5px;
+}
+.chtxt{
+     padding-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
